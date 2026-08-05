@@ -10,8 +10,8 @@ Back-End developer focused on the Java & Spring Boot ecosystem, RESTful API desi
 ### 🌐 Where to find me
 
 <p align="left">
-  <a href="https://github.com/gustavohenrique-j">
-    <img src="https://img.shields.io/badge/GitHub-gustavohenrique--j-181717?style=for-the-badge&logo=github" />
+  <a href="https://github.com/gustavorommanno">
+    <img src="https://img.shields.io/badge/GitHub-gustavorommanno-181717?style=for-the-badge&logo=github" />
   </a>
   <a href="https://www.linkedin.com/in/gustavorommano">
     <img src="https://img.shields.io/badge/LinkedIn-gustavorommano-0A66C2?style=for-the-badge&logo=linkedin" />
@@ -62,8 +62,8 @@ Back-End developer focused on the Java & Spring Boot ecosystem, RESTful API desi
 ### 📊 GitHub Stats
 
 <p align="left">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=gustavohenrique-j&show_icons=true&theme=tokyonight&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gustavohenrique-j&layout=compact&theme=tokyonight" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=gustavorommanno&show_icons=true&theme=tokyonight&count_private=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gustavorommanno&layout=compact&theme=tokyonight" />
 </p>
 
 ---
