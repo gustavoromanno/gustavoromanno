@@ -62,8 +62,8 @@ Back-End developer focused on the Java & Spring Boot ecosystem, RESTful API desi
 ### 📊 GitHub Stats
 
 <p align="left">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=gustavorommanno&show_icons=true&theme=tokyonight&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gustavorommanno&layout=compact&theme=tokyonight" />
+  <img height="170" src="https://github-readme-stats-two.vercel.app/api?username=gustavorommanno&show_icons=true&theme=tokyonight&count_private=true" />
+  <img height="170" src="https://github-readme-stats-two.vercel.app/api/top-langs/?username=gustavorommanno&layout=compact&theme=tokyonight" />
 </p>
 
 ---
