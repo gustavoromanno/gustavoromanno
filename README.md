@@ -10,8 +10,8 @@ Back-End developer focused on the Java & Spring Boot ecosystem, RESTful API desi
 ### 🌐 Where to find me
 
 <p align="left">
-  <a href="https://github.com/gustavorommanno">
-    <img src="https://img.shields.io/badge/GitHub-gustavorommanno-181717?style=for-the-badge&logo=github" />
+  <a href="https://github.com/gustavoromanno">
+    <img src="https://img.shields.io/badge/GitHub-gustavoromanno-181717?style=for-the-badge&logo=github" />
   </a>
   <a href="https://www.linkedin.com/in/gustavorommano">
     <img src="https://img.shields.io/badge/LinkedIn-gustavorommano-0A66C2?style=for-the-badge&logo=linkedin" />
