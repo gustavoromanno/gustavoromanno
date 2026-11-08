@@ -129,7 +129,7 @@ def languages_svg(languages, top=6):
     total = sum(size for size, _ in languages.values()) or 1
     shown = ranked[:top]
     rest = total - sum(size for _, (size, _) in shown)
-    if rest > 0 and len(ranked) > top:
+    if len(ranked) > top and 100 * rest / total >= 0.05:  # some quando arredondaria para 0.0%
         shown.append(("Outras", (rest, MUTED)))
 
     bar_w, x, body = W - 44, 22.0, f'<clipPath id="bar"><rect x="22" y="54" width="{W - 44}" height="10" rx="5"/></clipPath><g clip-path="url(#bar)">'
