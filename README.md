@@ -56,8 +56,8 @@
 ## Estatísticas
 
 <p align="center">
-  <img height="165" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Estatísticas do GitHub">
-  <img height="165" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Linguagens mais usadas">
+  <img height="165" src="./stats/stats.svg" alt="Estatísticas do GitHub">
+  <img height="165" src="./stats/languages.svg" alt="Linguagens mais usadas">
 </p>
 
 ---

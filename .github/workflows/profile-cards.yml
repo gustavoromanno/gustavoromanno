@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - .github/workflows/profile-cards.yml
+      - .github/scripts/stats_cards.py
 
 permissions:
   contents: write
@@ -18,13 +19,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
+      - name: Gerar cartões
         env:
-          # Token pessoal (escopo "repo") salvo no secret PROFILE_CARDS_TOKEN para
-          # contabilizar também os repositórios privados. Só números agregados vão
-          # para os cartões; nenhum código ou nome de repositório privado é exibido.
-          GITHUB_TOKEN: ${{ secrets.PROFILE_CARDS_TOKEN || secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          BRANCH_NAME: main
-          UTC_OFFSET: -3
+          # Token pessoal (escopo "repo") salvo no secret PROFILE_CARDS_TOKEN, para
+          # contar também os repositórios privados. Só números agregados vão para
+          # os cartões; nenhum código ou nome de repositório privado é exibido.
+          GH_TOKEN: ${{ secrets.PROFILE_CARDS_TOKEN }}
+        run: python3 .github/scripts/stats_cards.py stats
+
+      - name: Salvar cartões
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats
+          git diff --cached --quiet || git commit -m "Atualizar cartões de estatísticas"
+          git push
