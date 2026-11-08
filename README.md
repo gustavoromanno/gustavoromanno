@@ -56,8 +56,8 @@
 ## Estatísticas
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=gustavoromanno&show_icons=true&theme=github_dark&hide_border=true&locale=pt-br&count_private=true" alt="Estatísticas do GitHub">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gustavoromanno&layout=compact&theme=github_dark&hide_border=true&locale=pt-br" alt="Linguagens mais usadas">
+  <img height="165" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Estatísticas do GitHub">
+  <img height="165" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Linguagens mais usadas">
 </p>
 
 ---
