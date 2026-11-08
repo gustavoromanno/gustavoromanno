@@ -20,7 +20,10 @@ jobs:
 
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Token pessoal (escopo "repo") salvo no secret PROFILE_CARDS_TOKEN para
+          # contabilizar também os repositórios privados. Só números agregados vão
+          # para os cartões; nenhum código ou nome de repositório privado é exibido.
+          GITHUB_TOKEN: ${{ secrets.PROFILE_CARDS_TOKEN || secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: main
